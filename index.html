@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Іра Анк</title>
+<meta name="description" content="Іра Анк — коуч. Усі посилання в одному місці.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0f1a16; --bg2:#15241e; --card:rgba(255,255,255,.04);
+    --line:rgba(212,175,106,.28); --gold:#d4af6a; --emerald:#2f7d63;
+    --text:#f3ece0; --muted:#b9ad98;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    min-height:100vh;font-family:Manrope,system-ui,sans-serif;color:var(--text);
+    background:
+      radial-gradient(ellipse 80% 50% at 50% 0%, rgba(47,125,99,.35), transparent 70%),
+      radial-gradient(ellipse 60% 40% at 50% 100%, rgba(212,175,106,.12), transparent 70%),
+      var(--bg);
+    display:flex;justify-content:center;padding:36px 16px 40px;
+  }
+  main{width:100%;max-width:460px;text-align:center}
+  .avatar{
+    width:210px;height:210px;border-radius:50%;object-fit:cover;object-position:50% 50%;
+    border:2px solid var(--gold);box-shadow:0 0 0 6px rgba(212,175,106,.1),0 12px 40px rgba(0,0,0,.4);
+  }
+  h1{font-family:"Playfair Display",serif;font-weight:600;font-size:34px;margin:20px 0 8px;letter-spacing:.3px}
+  .tag{color:var(--muted);font-size:16px;line-height:1.5;max-width:340px;margin:0 auto 36px}
+  .tag em{display:block;margin:10px 0;font-family:"Playfair Display",serif;font-style:italic;color:var(--gold);font-size:19px;line-height:1.4}
+  .tag .small{font-size:14px}
+  nav{display:flex;flex-direction:column;gap:14px}
+  a.btn{
+    display:flex;align-items:center;gap:14px;padding:16px 20px;border-radius:16px;
+    background:var(--card);border:1px solid var(--line);color:var(--text);text-decoration:none;
+    font-weight:500;font-size:16px;transition:.2s;text-align:left;
+  }
+  a.btn:hover{border-color:var(--gold);background:rgba(212,175,106,.08);transform:translateY(-1px)}
+  a.btn svg{width:22px;height:22px;flex:none;fill:var(--gold)}
+  a.btn span{flex:1}
+  a.btn small{display:block;color:var(--muted);font-size:13px;font-weight:400;margin-top:2px}
+  .sep{margin:18px 0 4px;color:var(--muted);font-size:12px;letter-spacing:2px;text-transform:uppercase}
+  footer{margin-top:40px;color:var(--muted);font-size:12px;opacity:.6}
+</style>
+</head>
+<body>
+<main>
+  <img class="avatar" src="photo.jpg" alt="Іра Анк">
+  <h1>Іра Анк</h1>
+  <p class="tag">Коуч особистісного зростання<br><em>Ти можеш досягнути будь-якої своєї цілі, якщо вона тобі дійсно потрібна</em><br><span class="small">Лікарка, HRD, суддя з практичної стрільби</span></p>
+
+  <nav>
+    <a class="btn" href="https://nove-myslennya.vercel.app/" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 2a8 8 0 110 16 8 8 0 010-16zm3.5 4.5l-5 2-2 5 5-2 2-5zM12 11a1 1 0 110 2 1 1 0 010-2z"/></svg>
+      <span>30 хвилин ясності<small>перша розмова · один на один</small></span>
+    </a>
+    <a class="btn" href="https://t.me/IraAnkPro" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M9.8 15.3l-.4 5.3c.6 0 .8-.3 1.1-.6l2.7-2.5 5.5 4c1 .6 1.7.3 2-.9l3.6-17c.3-1.5-.6-2.1-1.6-1.7L1.4 9.8c-1.4.6-1.4 1.4-.2 1.8l5.4 1.7 12.5-7.9c.6-.4 1.1-.2.7.2z"/></svg>
+      <span>Написати мені<small>Telegram · давайте знайомитись</small></span>
+    </a>
+    <a class="btn" href="https://www.facebook.com/Irankudinova" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M24 12a12 12 0 10-13.9 11.9v-8.4h-3V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0024 12z"/></svg>
+      <span>Facebook</span>
+    </a>
+    <a class="btn" href="https://www.linkedin.com/in/%D1%96%D1%80%D0%B0-%D0%B0%D0%BD%D0%BA-91921b45/" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M20.4 20.5h-3.6v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9v5.7H9.3V9h3.4v1.6c.5-.9 1.6-1.8 3.4-1.8 3.6 0 4.3 2.4 4.3 5.5v6.2zM5.3 7.4a2.1 2.1 0 110-4.1 2.1 2.1 0 010 4.1zM7.1 20.5H3.6V9h3.5v11.5zM22.2 0H1.8C.8 0 0 .8 0 1.7v20.6c0 .9.8 1.7 1.8 1.7h20.4c1 0 1.8-.8 1.8-1.7V1.7C24 .8 23.2 0 22.2 0z"/></svg>
+      <span>LinkedIn</span>
+    </a>
+
+    <div class="sep">Ще</div>
+    <a class="btn" href="https://t.me/garage_sale_iraank" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 3a7 7 0 110 14 7 7 0 010-14zm0 3a4 4 0 100 8 4 4 0 000-8zm0 3a1 1 0 110 2 1 1 0 010-2z"/></svg>
+      <span>Гаражний розпродаж<small>спорядження для практичної стрільби</small></span>
+    </a>
+    <a class="btn" href="https://github.com/iraank" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1.1.9 2.2v3.3c0 .3.1.7.8.6A12 12 0 0012 .3z"/></svg>
+      <span>GitHub<small>мої AI-інструменти</small></span>
+    </a>
+    <a class="btn" href="https://www.instagram.com/retouch_iraank/" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zM12 16a4 4 0 110-8 4 4 0 010 8zm6.4-11.8a1.4 1.4 0 100 2.9 1.4 1.4 0 000-2.9z"/></svg>
+      <span>Моя творчість<small>ретуш фото · Instagram @retouch_iraank</small></span>
+    </a>
+  </nav>
+  <footer>© Іра Анк</footer>
+</main>
+</body>
+</html>
